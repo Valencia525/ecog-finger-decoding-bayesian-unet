@@ -53,7 +53,7 @@ The core innovation of this thesis is the **Bayesian Optimization (BO)** engine,
 ```text
 ├── src/
 │   ├── preprocessing.ipynb    # Signal cleaning and Spectrogram generation
-│   ├── model.ipynb            # U-Net 1D Architecture
+│   ├── model.py          # U-Net 1D Architecture
 │   └── optimization.ipynb     # Bayesian Optimization logic
 ├── requirements.txt        # Project dependencies
 └── README.md
